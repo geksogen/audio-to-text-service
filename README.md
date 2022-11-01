@@ -19,6 +19,7 @@ This service is designed to transcribe audio to text. It takes mp3 audio as inpu
 git clone https://github.com/geksogen/Scalable_Streamlit-_Apps.git
 cd backend/app
 mkdir save
+apt install unzip
 sh prepare_models.sh
 sudo apt-get update
 sudo apt install python3-pip

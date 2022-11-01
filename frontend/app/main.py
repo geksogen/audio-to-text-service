@@ -16,7 +16,7 @@ st.sidebar.info(
     This service for recognition and processing audio to text
     """
 )
-st.sidebar.info("Feel free to collaborate and comment on the work. The github link can be found "
+st.sidebar.markdown("Feel free to collaborate and comment on the work. The github link can be found "
                 "https://github.com/geksogen/audio-to-text-service")
 
 st.header("Trascribe Audio, only mp3 format! Cut first 10 seconds!")

@@ -1,3 +1,5 @@
+#!/bin/bash
+
 curl -o recasepunc.zip https://alphacephei.com/vosk/models/vosk-recasepunc-ru-0.22.zip
 unzip recasepunc.zip
 mv vosk-recasepunc-ru-0.22/ recasepunc
@@ -14,3 +16,4 @@ curl -o ./model.zip https://alphacephei.com/vosk/models/vosk-model-small-ru-0.22
 unzip model.zip
 mv vosk-model-small-ru-0.22/ model_smail
 rm -rf model.zip
+
