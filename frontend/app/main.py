@@ -4,7 +4,8 @@ import requests
 
 STYLES = {
     "Big_model": "./model_big",
-    "Smail_model": "./model_smail"
+    "Smail_model": "./model_smail",
+    "Max_model": "./model_max"
 }
 
 style = st.selectbox("Choose the size model", [i for i in STYLES.keys()])

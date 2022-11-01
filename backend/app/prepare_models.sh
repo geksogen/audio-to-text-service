@@ -17,3 +17,7 @@ unzip model.zip
 mv vosk-model-small-ru-0.22/ model_smail
 rm -rf model.zip
 
+curl -o ./model.zip https://alphacephei.com/vosk/models/vosk-model-ru-0.10.zip
+unzip model.zip
+mv vosk-model-ru-0.10/ model_max
+rm -rf model.zip
