@@ -29,7 +29,7 @@ async def post_endpoint(style: str, file: bytes = File(...)):
 
         # Time to miliseconds
         startTime = startMin * 60 * 1000 + startSec * 1000
-        endTime = endMin * 60 * 1000 + endSec * 1000
+        endTime = endMin * 60 * 2000 + endSec * 2000
 
         # Opening file and extracting segment
         song = AudioSegment.from_mp3('./save/soung.mp3')
