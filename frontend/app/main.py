@@ -26,7 +26,7 @@ fileObject = st.file_uploader(label="Please upload your file")
 if st.button("Transcription"):
     with st.spinner('Wait for precessing:...'):
         files = {"file": fileObject.getvalue()}
-        res = requests.post(f"http://178.154.240.231:8081/{style}", files=files) # change for your IP backend !
+        res = requests.post(f"http://212.109.198.71:8081/{style}", files=files) # change for your IP backend !
         img_path = res.json()
 
         audio_file = open('../../backend/app/save/extract.mp3', 'rb')
