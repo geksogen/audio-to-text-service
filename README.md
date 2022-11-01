@@ -1,4 +1,4 @@
-# Welcome to service for recognition and processing audio to text 👋
+# Welcome to service recognition and processing audio to text 👋
 
 This service is designed to transcribe audio to text. It takes mp3 audio as input (cuts off the first 10 seconds) and outputs text. The transcription functionality is implemented using
 [VOSK](https://alphacephei.com/vosk/) speech recognition toolkit.
@@ -46,7 +46,7 @@ python3 -m streamlit run main.py
 ### 🤝 Contributing
 
 Contributions, issues and feature requests are welcome.<br />
-Feel free to check [issues page](https://github.com/kefranabg/readme-md-generator/issues) if you want to contribute.<br />
+Feel free to check [issues page](https://github.com/geksogen/audio-to-text-service/issues) if you want to contribute.<br />
 
 ### Author
 
@@ -58,4 +58,4 @@ Feel free to check [issues page](https://github.com/kefranabg/readme-md-generato
 ### 📝 License
 
 Copyright © 2022 [Geksogen](https://github.com/geksogen).
-This project is [MIT](https://github.com/) licensed.
+This project is [MIT](https://github.com/geksogen/audio-to-text-service/blob/master/LICENSE) licensed.

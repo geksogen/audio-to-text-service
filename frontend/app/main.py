@@ -17,7 +17,7 @@ st.sidebar.info(
     """
 )
 st.sidebar.info("Feel free to collaborate and comment on the work. The github link can be found "
-                "https://github.com/")
+                "https://github.com/geksogen/audio-to-text-service")
 
 st.header("Trascribe Audio, only mp3 format! Cut first 10 seconds!")
 fileObject = st.file_uploader(label="Please upload your file")
@@ -25,7 +25,7 @@ fileObject = st.file_uploader(label="Please upload your file")
 if st.button("Transcription"):
     with st.spinner('Wait for precessing:...'):
         files = {"file": fileObject.getvalue()}
-        res = requests.post(f"http://178.154.240.231:8081/{style}", files=files)
+        res = requests.post(f"http://178.154.240.231:8081/{style}", files=files) # change for your IP backend !
         img_path = res.json()
 
         audio_file = open('../../backend/app/save/extract.mp3', 'rb')
