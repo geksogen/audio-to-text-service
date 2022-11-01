@@ -1,0 +1,11 @@
+fastapi
+python-multipart
+uvicorn
+aiofiles
+asyncio
+pydub
+vosk
+ffmpeg
+transformers
+ffprobe
+torch==1.11.0
