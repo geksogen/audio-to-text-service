@@ -7,7 +7,6 @@ from pydub import AudioSegment
 import subprocess
 import json
 import os
-import config
 
 app = FastAPI()
 
